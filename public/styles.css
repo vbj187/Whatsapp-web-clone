@@ -5,6 +5,7 @@
   }
   html {
     font-family: 'Roboto', sans-serif;
+
   }
   body {
     background: #eee;
@@ -42,30 +43,20 @@
     font-size: medium;
     padding-top: 5px;
   }
-  .note {
-    background: #fff;
-    border-radius: 7px;
-    box-shadow: 0 2px 5px #ccc;
-    padding: 10px;
-    width: 240px;
-    margin: 16px;
-    float: left;
-  }
-  .note h1 {
-    font-size: 1.1em;
-    margin-bottom: 6px;
-  }
-  .note p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+
+  .console-container{
+    display: flex;
+    width: 100%;
+    min-height: 35em;
   }
 
-  .column {
-    float: left;
-    width: 50%;
-    padding: 16px 16px;
-    height: 300px;
+  .left-panel{
+    flex-basis: 30%;
+    background-color: rgba(rgba(54, 215, 183, 0.7)); 
   }
   
+  .right-panel{
+    flex-basis: 70%;
+    background-color: rgba(rgba(54, 215, 183, 0.5));
+    background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+  }

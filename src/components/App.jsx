@@ -5,7 +5,7 @@ import Console from "./console/Console"
 
 export default function App() {
     return (
-        <div>
+        <div className="containter">
             <Header />
             <Console />
             <Footer />
