@@ -7,10 +7,13 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 export default function UserPane() {
     return (
         <div className="userPane">
-            <ProfilePicture />
+            <div className="nameAndPic">
+                <ProfilePicture />
+                <h3 id="defaultUserName">Vigneshwaran</h3>
+            </div>
             <div className="left-panel-optioins">
-                <NewChatIcon />
-                <MoreVertIcon />
+                <NewChatIcon fontSize="large" />
+                <MoreVertIcon fontSize="large" />
             </div>
         </div>
     )

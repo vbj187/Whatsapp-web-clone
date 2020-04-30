@@ -62,10 +62,31 @@
   }
 
   img{
-    min-width: 60px;
-    max-width: 60px;
+    min-width: 50px;
+    max-width: 50px;
+    border-radius: 50%;
   }
 
   .userPane{
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+  }
+
+  .left-panel-optioins{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .nameAndPic{
+    display: flex;
+  }
+
+  #defaultUserName{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: normal;
   }
