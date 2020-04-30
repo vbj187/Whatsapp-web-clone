@@ -1,9 +1,10 @@
 import React from "react";
+import UserPane from "./components/UserPane"
 
 export default function LeftPanel() {
     return (
         <div className="left-panel">
-            <p>left panel</p>
+            <UserPane />
         </div>
     )
 }
