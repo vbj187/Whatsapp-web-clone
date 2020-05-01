@@ -12,8 +12,8 @@ export default function UserPane() {
                 <h3 id="defaultUserName">Vigneshwaran</h3>
             </div>
             <div className="left-panel-optioins">
-                <NewChatIcon fontSize="large" />
-                <MoreVertIcon fontSize="large" />
+                <NewChatIcon fontSize="normal" />
+                <MoreVertIcon fontSize="normal" />
             </div>
         </div>
     )
