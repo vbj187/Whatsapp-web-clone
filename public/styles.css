@@ -1,7 +1,7 @@
 * {
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
   html {
     font-family: 'Roboto', sans-serif;
@@ -104,6 +104,7 @@
 
   #recipientUserName{
     padding: 10px;
+    font-weight: normal;
   }
 
   .recipient-right-panel-options{
@@ -112,13 +113,17 @@
     justify-content: space-evenly;
   }
 
+  .chat-history-box{
+    background-color: transparent;
+    min-height: 76%;
+  }
+
   .chat-box-panel{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    background-color: lawngreen;
-    bottom: 2rem;
-    position: absolute;
+    padding: 10px 0px;
+    background-color: #ecf0f1;
+    /* position: absolute; */
   }
 
   .chat-textarea-encloser{
@@ -133,20 +138,20 @@
 
   .chat-textArea{
     min-width: 100%;
-    min-height: 100%;
+    min-height: 95%;
   }
 
   #chat-input-textarea{
     background-color: #ecf0f1;
     border-style: none;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
   .mic-send-encloser{
     display: flex;
-    min-width: 100px;
-    padding-right: 10px;
-    padding-left: 10px;
+    min-width: 10%;
+    padding-right: 1%;
+    padding-left: 1%;
     justify-content: space-between;
   }
 
@@ -165,7 +170,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: medium;
-    padding: 2px;
+    padding: 0.5%;
   }
 
   button{

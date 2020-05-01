@@ -2,11 +2,10 @@ import React from "react";
 import SendIcon from '@material-ui/icons/Send';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import MicIcon from '@material-ui/icons/Mic';
-import { red } from "@material-ui/core/colors";
 
 export default function ChatBox() {
     return (
-        <div className="chat-box-panel">
+        <div className="chat-box-panel flex-end-chatarea">
             <button><InsertEmoticonIcon /></button>
             <div className="chat-textarea-encloser">
                 <input
