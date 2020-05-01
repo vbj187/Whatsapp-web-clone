@@ -30,7 +30,7 @@
   .console-container{
     display: flex;
     width: 100%;
-    min-height: 38em;
+    min-height: 95vh;
   }
 
   .left-panel{
@@ -42,12 +42,6 @@
     flex-basis: 70%;
     background-color: rgba(rgba(54, 215, 183, 0.5));
     background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
-  }
-
-  img{
-    min-width: 15%;
-    max-width: 15%;
-    border-radius: 50%;
   }
 
   .userPane{
