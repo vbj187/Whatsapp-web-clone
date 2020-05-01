@@ -41,10 +41,10 @@
   .left-panel-search{
     display: flex;
     max-width: 95%;
-    min-height: 40px;
+    min-height: 5%;
     border: 1px solid #16a085;
     border-radius: 20px;
-    padding-left:10px;
+    padding:5px 10px;
   }
 
   .userPane{
@@ -75,13 +75,19 @@
     padding-left: 10px;
     font-weight: normal;
   }
-    .search-input-left-panel{
-      opacity: 0.5;
-      padding: 10px;
-      width: 18rem;
-      background-color: #ecf0f1;
-      border-style: none;
-    }
+  .search-input-left-panel{
+    opacity: 0.5;
+    padding: 10px;
+    width: 18rem;
+    background-color: #ecf0f1;
+    border-style: none;
+  }
+
+  .chat-contacts{
+    background-color: #ecf0f1;
+    min-height: 75vh;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  }
 
   .right-panel{
     flex-basis: 70%;
