@@ -1,11 +1,12 @@
 import React from "react";
-import Header from "./border-panel/Header";
-import Footer from "./border-panel/Footer";
+
+import Header from "./encloser/Header";
 import Console from "./console/Console";
+import Footer from "./encloser/Footer";
 
 export default function App() {
     return (
-        <div className="containter">
+        <div>
             <Header />
             <Console />
             <Footer />

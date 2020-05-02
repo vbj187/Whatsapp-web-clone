@@ -1,12 +1,12 @@
 import React from "react";
+
 import NewChatIcon from '@material-ui/icons/InsertComment';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import Avatar from '@material-ui/core/Avatar';
 
-
-export default function UserPane() {
+export default function UserPanel() {
     return (
-        <div className="userPane">
+        <div className="user-panel">
             <div className="username-picture">
                 <button>
                     <Avatar
@@ -15,10 +15,11 @@ export default function UserPane() {
                 </button>
                 <h3 id="defaultUserName">Vigneshwaran</h3>
             </div>
-            <div className="left-panel-optioins">
+            <div className="left-panel-options">
                 <button><NewChatIcon fontSize="normal" /></button>
                 <button><MoreVertIcon fontSize="normal" /></button>
             </div>
+
         </div>
     )
 }
