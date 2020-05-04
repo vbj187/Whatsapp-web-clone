@@ -120,6 +120,19 @@ header p{
   background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
 }
 
+.chat-no-history-box{
+  height: 90.5vh;
+  display: flex;
+  background-color: rgba(rgba(54, 215, 183, 0.5));
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-no-history-box img{
+  max-width: 250px;
+}
+
 .chat-box-panel{
   display: flex;
   justify-content: space-between;

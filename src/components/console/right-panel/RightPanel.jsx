@@ -1,14 +1,13 @@
 import React from "react";
-import ChatRecipientBox from "./components/ChatRecipient";
-import ChatHistory from "./components/ChatHistory";
-import ChatBox from "./components/ChatBox";
+import ChatHistoryArea from "./components/ChatHistoryArea";
+import DefaultNoHistory from "./components/DefaultNoHistory";
+
+let contactSelected = false;
 
 export default function RightPanel() {
     return (
         <div className="right-panel">
-            <ChatRecipientBox />
-            <ChatHistory />
-            <ChatBox />
+            {!contactSelected ? <DefaultNoHistory /> : <ChatHistoryArea />}
         </div>
     )
 }
