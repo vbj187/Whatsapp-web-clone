@@ -87,6 +87,23 @@ header p{
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
+.single-chat-contact{
+  padding-left: 20px;
+  padding-top: 10px;
+  display: flex;
+  border: 1px solid rgba(236, 240, 241,0.3);
+}
+
+.single-chat-contact-last-message h3,p{
+  padding: 5px;
+}
+
+
+
+.chat-contacts-name-last-message{
+  padding-left: 10px;
+}
+
 .right-panel{
   min-width: 70vw;
 }
