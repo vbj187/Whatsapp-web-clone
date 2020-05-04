@@ -11,12 +11,12 @@ export default function SingleChatContact(props) {
                 <Avatar
                     fontSize="large"
                     alt="Profile Picture"
-                    src="https://images.pexels.com/photos/2934208/pexels-photo-2934208.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    src={props.img}
                 />
             </div>
             <div className="chat-contacts-name-last-message">
-                <h3>Pug</h3>
-                <p>Woof woof</p>
+                <h3>{props.name}</h3>
+                <p>{props.lastMessage}</p>
             </div>
         </div>
     )

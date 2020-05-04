@@ -1,7 +1,8 @@
 const database = [
     {
+        id: 1,
         name: "Pug",
-        imgURL: "https://images.pexels.com/photos/2934208/pexels-photo-2934208.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        img: "https://images.pexels.com/photos/2934208/pexels-photo-2934208.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         sent: [
             "Tell me something"
         ],
@@ -10,8 +11,9 @@ const database = [
         ]
     },
     {
+        id: 2,
         name: "White Bulldog",
-        imgURL: "https://images.pexels.com/photos/40986/dog-bulldog-white-tongue-40986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        img: "https://images.pexels.com/photos/40986/dog-bulldog-white-tongue-40986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         sent: [
             "Tell me something"
         ],
@@ -20,18 +22,20 @@ const database = [
         ]
     },
     {
-        name: "Corgi",
-        imgURL: "https://images.pexels.com/photos/994174/pexels-photo-994174.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        id: 3,
+        name: "D King",
+        img: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         sent: [
             "Tell me something"
         ],
         recieved: [
-            "vow vow"
+            "piss off dude"
         ]
     },
     {
+        id: 4,
         name: "Shih Tzu",
-        imgURL: "https://images.pexels.com/photos/936317/pexels-photo-936317.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        img: "https://images.pexels.com/photos/936317/pexels-photo-936317.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         sent: [
             "Tell me something"
         ],
@@ -40,8 +44,9 @@ const database = [
         ]
     },
     {
-        name: "Green dude",
-        imgURL: "https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        id: 5,
+        name: "Green",
+        img: "https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         sent: [
             "Tell me something"
         ],
@@ -50,8 +55,9 @@ const database = [
         ]
     },
     {
+        id: 6,
         name: "Squirrel",
-        imgURL: "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        img: "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         sent: [
             "Tell me something"
         ],
@@ -60,8 +66,9 @@ const database = [
         ]
     },
     {
+        id: 7,
         name: "Tiger",
-        imgURL: "https://images.pexels.com/photos/145971/pexels-photo-145971.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        img: "https://images.pexels.com/photos/145971/pexels-photo-145971.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         sent: [
             "Tell me something"
         ],

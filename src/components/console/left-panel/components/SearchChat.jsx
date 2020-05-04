@@ -9,7 +9,7 @@ export default function SearchChat() {
                 <input
                     className="search-input-left-panel"
                     type="search"
-                    placeholder="search chat or contact"
+                    placeholder="search contact"
                 />
             </div>
         </div>
