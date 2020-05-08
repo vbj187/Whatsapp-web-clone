@@ -1,23 +1,25 @@
 import React from "react";
 
 import SingleChatContact from './SingleChatContact';
-import database from "./database";
 
-function createChatContact(data) {
+function createChatContact(data, setselectedContactId) {
     return (
         <SingleChatContact
             key={data.id}
             name={data.name}
             img={data.img}
             lastMessage={data.recieved[0]}
+            handleClick={() => setselectedContactId(data.id)}
         />
     )
 }
 
-export default function ChatContacts() {
+export default function ChatContacts({ users, setselectedContactId }) {
     return (
         <div className="chat-contacts">
-            {database.map(createChatContact)}
+            {users.map(data => {
+                return createChatContact(data, setselectedContactId)
+            })}
         </div>
     )
 }

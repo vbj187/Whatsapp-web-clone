@@ -27,6 +27,11 @@ header p{
     margin-left: 10px;
 }
 
+.app{
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
 .complete-console{
   display: flex;
   width: 100%;
@@ -84,7 +89,6 @@ header p{
   background-color: rgba(rgba(54, 215, 183, 0.7));
   height: 74vh;
   width: 30vw;
-  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 .single-chat-contact{
@@ -95,15 +99,13 @@ header p{
 }
 
 .single-chat-contact:hover{
-  box-shadow: 1px 1px 1px 1px rgb(107, 230, 148);
+  box-shadow: 0 8px 6px -6px rgb(107, 230, 148);
   cursor: pointer;
 }
 
 .single-chat-contact-last-message h3,p{
   padding: 5px;
 }
-
-
 
 .chat-contacts-name-last-message{
   padding-left: 10px;
@@ -160,7 +162,6 @@ header p{
   justify-content: space-between;
   padding: 10px 0px;
   background-color: (rgba(54, 215, 183, 0.7));
-  /* position: absolute; */
 }
 
 .chat-textarea-encloser{

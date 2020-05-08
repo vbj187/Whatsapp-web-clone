@@ -16,8 +16,8 @@ export default function UserPanel() {
                 <h3 id="defaultUserName">Vigneshwaran</h3>
             </div>
             <div className="left-panel-options">
-                <button><NewChatIcon fontSize="normal" /></button>
-                <button><MoreVertIcon fontSize="normal" /></button>
+                <button><NewChatIcon fontSize="default" /></button>
+                <button><MoreVertIcon fontSize="default" /></button>
             </div>
 
         </div>

@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 
 import LeftPanel from "./left-panel/LeftPanel";
 import RightPanel from "./right-panel/RightPanel";
 
+import database from "./database";
+
 export default function Console() {
+
+    const [users, setUsers] = useState(database);
+    const [selectedContactId, setselectedContactId] = useState(null);
+    const [state, setstate] = useState();
+
     return (
         <div className="complete-console">
-            <LeftPanel />
-            <RightPanel />
+            <LeftPanel users={users} setselectedContactId={setselectedContactId} />
+            <RightPanel selectedContactId={selectedContactId} />
         </div>
     )
 }

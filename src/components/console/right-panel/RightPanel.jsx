@@ -2,12 +2,11 @@ import React from "react";
 import ChatHistoryArea from "./components/ChatHistoryArea";
 import DefaultNoHistory from "./components/DefaultNoHistory";
 
-let contactSelected = false;
 
-export default function RightPanel() {
+export default function RightPanel({ selectedContactId }) {
     return (
         <div className="right-panel">
-            {!contactSelected ? <DefaultNoHistory /> : <ChatHistoryArea />}
+            {selectedContactId == null ? <DefaultNoHistory /> : <ChatHistoryArea />}
         </div>
     )
 }
