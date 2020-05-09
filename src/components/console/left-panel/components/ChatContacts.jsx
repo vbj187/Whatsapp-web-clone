@@ -8,7 +8,7 @@ function createChatContact(data, setselectedContactId) {
             key={data.id}
             name={data.name}
             img={data.img}
-            lastMessage={data.recieved[0]}
+            lastMessage={data.messages[0].text}
             handleClick={() => setselectedContactId(data.id)}
         />
     )

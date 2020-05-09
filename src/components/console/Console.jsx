@@ -9,12 +9,11 @@ export default function Console() {
 
     const [users, setUsers] = useState(database);
     const [selectedContactId, setselectedContactId] = useState(null);
-    const [state, setstate] = useState();
 
     return (
         <div className="complete-console">
             <LeftPanel users={users} setselectedContactId={setselectedContactId} />
-            <RightPanel selectedContactId={selectedContactId} />
+            <RightPanel selectedContactId={selectedContactId} users={users} />
         </div>
     )
 }
