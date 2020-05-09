@@ -6,7 +6,7 @@ import ChatBox from "./ChatBox";
 
 export default function ChatHistoryArea({ user }) {
     return (
-        <div>
+        <div className="chat-history-area">
             <ChatRecipientBar user={user} />
             <ChatHistory user={user} />
             <ChatBox />
