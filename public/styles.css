@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  max-width: 100vw;
 }
 
 button{
@@ -144,10 +145,6 @@ header p{
   background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
 }
 
-.chat-history-area{
-  max-width: 90%;
-}
-
 .chat-no-history-box{
   height: 90.5vh;
   display: flex;
@@ -159,6 +156,21 @@ header p{
 
 .chat-no-history-box img{
   max-width: 250px;
+}
+
+.sent-message{
+  color: brown;
+  text-align: right;
+}
+
+.text-message-wrapper{
+  margin: 5px 0px;
+  transition: 0.3s;
+}
+
+.chat-history-box{
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .chat-box-panel{

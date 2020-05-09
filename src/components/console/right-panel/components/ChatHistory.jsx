@@ -5,9 +5,9 @@ export default function ChatHistory({ user }) {
         <div className="chat-history-box">
             {user.messages.map(message => {
                 if (message.type === 'sent') {
-                    return <p className="text-message-wrapper">{message.text}</p>
+                    return <p className="text-message-wrapper sent-message">{message.text}</p>
                 } else {
-                    return <p className="text-message-wrapper">{message.text}</p>
+                    return <p className="text-message-wrapper recieved-message">{message.text}</p>
                 }
             })}
         </div>

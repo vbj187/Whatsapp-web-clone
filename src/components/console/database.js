@@ -3,32 +3,11 @@ const database = [
         id: 1,
         name: "Doc McDoggins",
         img: "https://images.pexels.com/photos/2934208/pexels-photo-2934208.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-
         messages: [
             {
-                id: 1,
+                id: 7,
                 type: 'recieved',
-                text: 'WHAT DOING??'
-            },
-            {
-                id: 2,
-                type: 'sent',
-                text: 'Nothing. I just stood up.'
-            },
-            {
-                id: 3,
-                type: 'recieved',
-                text: 'WHERE GO?'
-            },
-            {
-                id: 4,
-                type: 'sent',
-                text: "I'm literally walking 3 feet away."
-            },
-            {
-                id: 5,
-                type: 'recieved',
-                text: 'CAN I COME???'
+                text: 'I COME TOO'
             },
             {
                 id: 6,
@@ -36,206 +15,98 @@ const database = [
                 text: 'Dont'
             },
             {
-                id: 7,
+                id: 5,
                 type: 'recieved',
-                text: 'I COME TOO'
-            }
+                text: 'CAN I COME???'
+            },
+            {
+                id: 4,
+                type: 'sent',
+                text: "I'm literally walking 3 feet away."
+            },
+            {
+                id: 3,
+                type: 'recieved',
+                text: 'WHERE GO?'
+            },
+            {
+                id: 2,
+                type: 'sent',
+                text: 'Nothing. I just stood up.'
+            },
+            {
+                id: 1,
+                type: 'recieved',
+                text: 'WHAT DOING??'
+            },
         ],
         recentMessages: 'I COME TOO'
     },
     {
         id: 2,
-        name: "White Bulldog",
+        name: "Shorty",
         img: "https://images.pexels.com/photos/40986/dog-bulldog-white-tongue-40986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         messages: [
             {
-                id: 1,
+                id: 3,
                 type: 'recieved',
-                text: ""
+                text: 'Tasted important'
             },
             {
                 id: 2,
                 type: 'sent',
-                text: ''
+                text: 'Okay'
             },
             {
-                id: 3,
+                id: 1,
                 type: 'recieved',
-                text: ''
+                text: 'You got a mail'
             },
-            {
-                id: 4,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 5,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 6,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 7,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 8,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 9,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 10,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 11,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 12,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 13,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 14,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 15,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 16,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 17,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 18,
-                type: 'recieved',
-                text: ''
-            }
-        ]
+        ],
+        recentMessages: 'Tasted important'
     },
     {
         id: 3,
-        name: "D King",
+        name: "Simba",
         img: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         messages: [
             {
-                id: 1,
+                id: 7,
                 type: 'recieved',
-                text: ""
-            },
-            {
-                id: 2,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 3,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 4,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 5,
-                type: 'recieved',
-                text: ''
+                text: 'I COME TOO'
             },
             {
                 id: 6,
                 type: 'sent',
-                text: ''
+                text: 'Dont'
             },
             {
-                id: 7,
+                id: 5,
                 type: 'recieved',
-                text: ''
+                text: 'CAN I COME???'
             },
             {
-                id: 8,
+                id: 4,
                 type: 'sent',
-                text: ''
+                text: "I'm literally walking 3 feet away."
             },
             {
-                id: 9,
+                id: 3,
                 type: 'recieved',
-                text: ''
+                text: 'WHERE GO?'
             },
             {
-                id: 10,
+                id: 2,
                 type: 'sent',
-                text: ''
+                text: 'Nothing. I just stood up.'
             },
             {
-                id: 11,
+                id: 1,
                 type: 'recieved',
-                text: ''
+                text: 'WHAT DOING??'
             },
-            {
-                id: 12,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 13,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 14,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 15,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 16,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 17,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 18,
-                type: 'recieved',
-                text: ''
-            }
-        ]
+        ],
+        recentMessages: 'I COME TOO'
     },
     {
         id: 4,
@@ -243,96 +114,32 @@ const database = [
         img: "https://images.pexels.com/photos/936317/pexels-photo-936317.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         messages: [
             {
-                id: 1,
+                id: 5,
                 type: 'recieved',
-                text: ""
-            },
-            {
-                id: 2,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 3,
-                type: 'recieved',
-                text: ''
+                text: 'OMG. THERE IS SOMEONE AT THE DOOR, BRB'
             },
             {
                 id: 4,
                 type: 'sent',
-                text: ''
+                text: 'No. You dont understand human jokes'
             },
             {
-                id: 5,
+                id: 3,
                 type: 'recieved',
-                text: ''
+                text: 'Oh SURE, BECAUSE HUMANS ARE SO SMART AND DOGS ARE DUMB'
             },
             {
-                id: 6,
+                id: 2,
                 type: 'sent',
-                text: ''
+                text: 'No. You dont understand human jokes'
             },
             {
-                id: 7,
+                id: 1,
                 type: 'recieved',
-                text: ''
+                text: 'Tell me a joke'
             },
-            {
-                id: 8,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 9,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 10,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 11,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 12,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 13,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 14,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 15,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 16,
-                type: 'recieved',
-                text: ''
-            },
-            {
-                id: 17,
-                type: 'sent',
-                text: ''
-            },
-            {
-                id: 18,
-                type: 'recieved',
-                text: ''
-            }
-        ]
+        ],
+        recentMessages: 'OMG. THERE IS SOMEONE AT THE DOOR, BRB'
     },
     {
         id: 5,
