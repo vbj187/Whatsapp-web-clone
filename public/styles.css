@@ -140,6 +140,10 @@ header p{
 }
 
 .chat-history-box{
+  display: flex;
+  flex-direction: column-reverse;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: rgba(rgba(54, 215, 183, 0.5));
   height: 72vh;
   background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
@@ -169,8 +173,7 @@ header p{
 }
 
 .chat-history-box{
-  display: flex;
-  flex-direction: column-reverse;
+  
 }
 
 .chat-box-panel{
